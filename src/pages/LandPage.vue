@@ -3,10 +3,10 @@
     <Banner></Banner>
     <div class="main">
       <Features></Features>
-      <!--Documentation></Documentation>
+      <Documentation></Documentation>
       <Review></Review>
-      <Publish></Publish>
-      <Trust></Trust-->
+      <!--Publish></Publish-->
+      <Trust></Trust>
     </div>
     <Footer></Footer>
     <transition name="fade">
@@ -24,10 +24,10 @@
 <script>
 import Banner from "@/components/Banner.vue";
 import Features from "@/components/Features.vue";
-/*import Documentation from "@/components/Documentation.vue";
+import Documentation from "@/components/Documentation.vue";
 import Review from "@/components/Review.vue";
-import Publish from "@/components/Publish.vue";
-import Trust from "@/components/Trust.vue";*/
+//import Publish from "@/components/Publish.vue";
+import Trust from "@/components/Trust.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -35,10 +35,10 @@ export default {
     
     Banner,
     Features,
-    /*Documentation,
+    Documentation,
     Review,
-    Publish,
-    Trust,*/
+    //Publish,
+    Trust,
     Footer,
   },
   data() {

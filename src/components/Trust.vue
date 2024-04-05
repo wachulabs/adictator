@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
         <div class="col-md-4">
-          <h2 class="section-heading">They trust us</h2>
-          <p>You are in good company. Join them</p>
+          <h2 class="section-heading">les partenaires</h2>
+          <!--p>You are in good company. Join them</p-->
         </div>
       </div>
       <div class="brand-list">
@@ -47,6 +47,7 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color:#F3F5F6
 }
 .brand {
   width: 170px;

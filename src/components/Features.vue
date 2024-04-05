@@ -8,8 +8,8 @@
       </div>
 
       <div class="row" style="justify-content:center; padding: 20px">
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="">
-          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px; height:100%">
             <div class="wrap-icon icon-1">
               <img :src="vaporizer" class="service-image"/>
             </div>
@@ -19,8 +19,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-          <div class="feature-1 text-center rounded-lg" style="background-color:white; padding: 20px; margin-bottom: 20px">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:white; padding: 20px; margin-bottom: 20px; height:100%">
             <div class="wrap-icon icon-1">
               <img :src="tobacco" class="service-image"/>
             </div>
@@ -30,8 +30,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px; height:100%">
             <div class="wrap-icon icon-1">
               <img :src="can" class="service-image"/>
             </div>
@@ -41,8 +41,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="">
-          <div class="feature-1 text-center rounded-lg" style="background-color:white; padding: 20px; margin-bottom: 20px">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:white; padding: 20px; margin-bottom: 20px; height:100%">
             <div class="wrap-icon icon-1">
               <img :src="sugar" class="service-image"/>
             </div>
@@ -52,8 +52,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
-          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px; height:100%">
             <div class="wrap-icon icon-1">
               <img :src="stress" class="service-image"/>
             </div>
@@ -63,8 +63,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="">
-          <div class="feature-1 text-center rounded-lg" style="background-color:white; padding: 20px; margin-bottom: 20px">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:white; padding: 20px; margin-bottom: 20px; height:100%">
             <div class="wrap-icon icon-1">
               <img :src="pain" class="service-image"/>
             </div>
@@ -74,8 +74,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px; height:100%">
             <div class="wrap-icon icon-1">
               <img :src="pain" class="service-image"/>
             </div>

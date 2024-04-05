@@ -63,13 +63,13 @@ section {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 0 0;
 }
 
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #274685);
+  background: linear-gradient(-45deg, #000000, #274685);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
