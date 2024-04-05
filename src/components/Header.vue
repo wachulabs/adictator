@@ -6,7 +6,8 @@
   >
     <div class="container d-flex justify-content-between align-items-center">
       <div class="logo">
-        <h1><router-link to="/">Beast API</router-link></h1>
+        <!--h1><router-link to="/">Adictator</router-link></h1-->
+        <img :src="Logo">
       </div>
 
       <nav
@@ -17,14 +18,14 @@
         <ul >
           <li @click="closeMenuState">
             <router-link to="/" :class="{ active: current_router === '/' }"
-              >Home</router-link
+              >Bienvenu</router-link
             >
           </li>
           <li @click="closeMenuState">
             <router-link
               to="#"
               :class="{ active: current_router === '/features' }"
-              >Features</router-link
+              >À propos de nous</router-link
             >
           </li>
           <li @click="closeMenuState">
@@ -66,12 +67,12 @@
               >Login</router-link
             >
           </li>
-          <li v-if="!loggedIn" @click="closeMenuState">
+          <li v-if="!loggedIn" @click="closeMenuState" class="rounded">
             <router-link
               class="btn_register"
               :class="{ active: current_router === '/register' }"
               to="/register"
-              >Register</router-link
+              >Book Appointment</router-link
             >
           </li>
           <li v-if="loggedIn" class="dropdown" @click="handleDropdown(2)">
@@ -99,9 +100,11 @@
 </template>
 <script>
 import { mapGetters, mapMutations } from "vuex";
+import Logo from "@/assets/Logo.jpg"
 export default {
   data() {
     return {
+      Logo:Logo,
       view: {
         topOfPage: true,
         menuOpened: false,
@@ -154,12 +157,13 @@ export default {
 </script>
 <style lang="scss" scoped>
 .btn_register {
-  background: white;
-  color: #3593b5;
+  background: #3da94f;
+  color: black;
   margin-left: 10px;
-  padding: 5px 15px;
+  padding: 10px 15px;
   border-radius: 20px;
   font-weight: 600;
+  border-radius: 5px;
 
   &:hover {
     color: #3593b5;

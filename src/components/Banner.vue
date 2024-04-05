@@ -37,15 +37,16 @@
             <div
               class="col-lg-8 text-center text-lg-start animate__animated animate__fadeInLeft"
             >
-              <h1 data-aos="fade-right">Promote Your API with Beast API</h1>
+              <h1 data-aos="fade-right" style="color:#0f172a"><span style="color:#f21e1e">Accueil pour tous vos</span> besoins en <span style="color:#38B44A">auriculothérapie</span></h1>
 
               <p
                 class="mb-5"
                 data-aos="fade-right"
                 data-aos-delay="100"
                 :class="{ 'aos-init aos-animate': view.slowShow }"
+                style="color:black"
               >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Nous utilisons du matériel unique, protégé et conforme aux normes CE en vigueur. Notre traitement vise à stimuler les points de l'oreille à l'aide d'un laser de faible intensité, totalement indolore et sans effets secondaires, agissant sur la dépendance physique à la nicotine. Le tout en éliminant l'envie et l'envie de recommencer à fumer dès les premiers instants après votre cure de sevrage tabagique.
               </p>
               <p
                 data-aos="fade-right"
@@ -53,8 +54,8 @@
                 data-aos-offset="-500"
                 :class="{ 'aos-init aos-animate': view.slowShow }"
               >
-                <router-link to="#" class="btn btn-outline-white"
-                  >Get started</router-link
+                <router-link style="color:black; background-color: #38B44A" to="#" class="btn btn-outline-dark-green"
+                  >Book Appointment</router-link
                 >
               </p>
             </div>
@@ -66,14 +67,15 @@
                 alt="Image"
                 class="phone-1"
                 data-aos="fade-right"
+                
               />
-              <img
+              <!--img
                 :src="view.img2"
                 alt="Image"
                 class="phone-2"
                 data-aos="fade-right"
                 data-aos-delay="200"
-              />
+              -->
             </div>
           </div>
         </div>
@@ -82,8 +84,8 @@
   </section>
 </template>
 <script>
-import img1 from "@/assets/img/phone_1.png";
-import img2 from "@/assets/img/phone_2.png";
+import img1 from "@/assets/img/im1.jpg";
+import img2 from "@/assets/img/im2.jpg";
 export default {
   data() {
     return {
@@ -125,7 +127,7 @@ export default {
     height: 154vh;
   }
   .hero-section .iphone-wrap .phone-1 {
-    margin-left: 20%;
+    margin-left: 0%;
   }
   .hero-section .iphone-wrap .phone-2 {
     margin-left: 20%;

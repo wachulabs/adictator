@@ -1,15 +1,15 @@
 <template>
   <section class="section">
-    <div class="container">
+    <div class="container rounded-lg" style="background-color: #34B64A">
       <div class="row justify-content-center text-center mb-5">
-        <div class="col-md-5" data-aos="fade-up">
-          <h2 class="section-heading">With our API, you'll be able to</h2>
+        <div class="" data-aos="fade-up">
+          <h2 class="">SERVICES QUE NOUS PROPOSONS</h2>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
-          <div class="feature-1 text-center">
+      <div class="row" style="justify-content:center">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="">
+          <div class="feature-1 text-center rounded-lg" style="background-color:grey">
             <div class="wrap-icon icon-1">
               <i class="bi bi-person"></i>
             </div>
@@ -20,7 +20,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
           <div class="feature-1 text-center">
             <div class="wrap-icon icon-1">
               <i class="bi bi-search"></i>
@@ -32,7 +32,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
           <div class="feature-1 text-center">
             <div class="wrap-icon icon-1">
               <i class="bi bi-heart"></i>
@@ -44,7 +44,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="">
           <div class="feature-1 text-center">
             <div class="wrap-icon icon-1">
               <i class="bi bi-people"></i>
@@ -56,7 +56,7 @@
             </p>
           </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
           <div class="feature-1 text-center">
             <div class="wrap-icon icon-1">
               <i class="bi bi-app-indicator"></i>

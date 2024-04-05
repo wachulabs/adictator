@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-4 mb-md-0">
-          <h3>About Beast</h3>
+          <h3>About Adictator</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea
             delectus pariatur, numquam aperiam dolore nam optio dolorem facilis
@@ -62,7 +62,7 @@
       <div class="row justify-content-center text-center">
         <div class="col-md-7">
           <p class="copyright">
-            &copy; Copyright SoftLand. All Rights Reserved
+            &copy; Copyright Adictator. All Rights Reserved
           </p>
         </div>
       </div>

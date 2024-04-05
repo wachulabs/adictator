@@ -1,14 +1,4 @@
-/**
-* Template Name: SoftLand
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 @import '~vue-awesome-notifications/dist/styles/style.css';
 html {
   overflow-x: hidden;
@@ -607,7 +597,7 @@ section {
 }
 
 #header.header-scrolled {
-  background: rgba(39, 70, 133, 0.8);
+  background: white;
   height: 60px;
 }
 
@@ -655,7 +645,7 @@ section {
   padding: 10px;
   font-size: 16px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.65);
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -669,9 +659,11 @@ section {
 
 .navbar .active,
 .navbar .active:focus {
-  color: #fff;
-  background: #318bcd;
+  color: #000000;
+  background: #3da94f;
   border-radius: 8px;
+  text-decoration: underline solid red 2px;
+  text-underline-offset: 10px;
 }
 
 .navbar .dropdown ul {
@@ -743,7 +735,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #000000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -844,7 +836,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  /*background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);*/
   position: relative;
 }
 
@@ -927,7 +919,7 @@ section {
 .hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
   position: absolute;
-  top: -50%;
+  /*top: -50%;*/
   overflow: hidden;
   left: 0;
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
@@ -946,12 +938,12 @@ section {
 
 .hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
-  width: 250px;
+  width: 500px;
 }
 
 @media screen and (max-width: 992px) {
   .hero-section .iphone-wrap .phone-1 {
-    margin-left: -150px;
+    margin-left: -0px;
   }
 }
 
