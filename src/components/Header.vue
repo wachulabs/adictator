@@ -32,7 +32,7 @@
             <router-link
               to="/pricing"
               :class="{ active: current_router === '/pricing' }"
-              >Pricing</router-link
+              >Tarifs</router-link
             >
           </li>
           <li @click="closeMenuState">

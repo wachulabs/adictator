@@ -19,31 +19,32 @@
           </div>
           
 
-          <div class="row">
+          <div class="row" style="padding:20px; font-size: 20px;">
             
 
             <p style="color: black">
-                Peu importe à quoi vous êtes accro. Nous avons des plans parfaits et favorables à votre poche..
+                Peu importe vos addictions. Nous avons des plans parfait et favorable à votre budget.
+On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arrêter de fumer, car vous faites ce que vous voulez de votre argent mais cela dit on ne peut pas négliger l’économie et surtout le capital vie gagner..
             </p>
 
             
           </div>
           <div class="row" style="justify-content:center; padding: 20px">
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
-          <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%">
-            <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">FREE</span>/session</h3>
+          <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%; justify-content: space-between;">
+            <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">GRATUIT</span></h3>
             <p style="color:#38B44A; font-size:30px; text-align:left">
                 Consultation téléphonique.
             </p>
             <div style="align-items:flex-start; display: flex; flex-direction:column; justify-content: left; margin: 30px 0px">
-                <p><i class="bi bi-check-circle-fill"></i></p>
-                <p><i class="bi bi-check-circle-fill"></i></p>
-                <p><i class="bi bi-check-circle-fill"></i></p>
+                <p><i class="bi bi-check-circle-fill"></i> Diagnostic téléphonique gratuit</p>
+                <p><i class="bi bi-check-circle-fill"></i> Conseils personnalisés</p>
+                <p><i class="bi bi-check-circle-fill"></i> Accompagnement professionnel</p>
             </div>
             <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Book Appointment</button>
           </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
+        <!--div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
           <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%">
             <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">€50</span>/session</h3>
             <p style="color:#38B44A; font-size:30px; text-align:left">
@@ -56,45 +57,46 @@
             </div>
             <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Book Appointment</button>
           </div>
-        </div>
+        </div-->
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
-          <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%">
-            <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">€150</span>/session</h3>
+          <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%; justify-content: space-between;">
+            <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">€150</span>/ la séance</h3>
             <p style="color:#38B44A; font-size:30px; text-align:left">
-                Traitement de la toxicomanie.
+                Traitement des addictions.
             </p>
             <div style="align-items:flex-start; display: flex; flex-direction:column; justify-content: left; margin: 30px 0px">
-                <p><i class="bi bi-check-circle-fill"></i></p>
-                <p><i class="bi bi-check-circle-fill"></i></p>
-                <p><i class="bi bi-check-circle-fill"></i></p>
+                <p><i class="bi bi-check-circle-fill"></i> Étude des besoins</p>
+                <p><i class="bi bi-check-circle-fill"></i> Recherche des points</p>
+                <p><i class="bi bi-check-circle-fill"></i> Traitement laser</p>
+                <p><i class="bi bi-check-circle-fill"></i> Nouvelle vie</p>
             </div>
             <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Book Appointment</button>
           </div>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
-          <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%; justify-content: end;">
+          <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%; justify-content: space-between;">
             <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">€50</span>/session</h3>
             <p style="color:#38B44A; font-size:30px; text-align:left">
                 séance d'initiation.
             </p>
             <div style="align-items:flex-start; display: flex; flex-direction:column; justify-content: left; margin: 30px 0px">
-                <p><i class="bi bi-check-circle-fill"></i></p>
-                <p><i class="bi bi-check-circle-fill"></i></p>
-                <p><i class="bi bi-check-circle-fill"></i></p>
+                <p><i class="bi bi-check-circle-fill"></i> Garantie 1 ans si rechute dans l’année Une nouvell séance offert</p>
+                <!--p><i class="bi bi-check-circle-fill"></i></p>
+                <p><i class="bi bi-check-circle-fill"></i></p-->
             </div>
             <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Book Appointment</button>
           </div>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
-          <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%; justify-content: end;">
+          <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%; justify-content: space-between;">
             <!--h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">€50</span>/session</h3-->
             <p style="color:#38B44A; font-size:30px; text-align:left">
                 Séance à domicile.
             </p>
-            <div style="align-items:flex-start; display: flex; flex-direction:column; justify-content: left; margin: 30px 0px">
-                <p><i class="bi bi-check-circle-fill"></i></p>
-                <p><i class="bi bi-check-circle-fill"></i></p>
-                <p><i class="bi bi-check-circle-fill"></i></p>
+            <div style="align-items:flex-start; display: flex; flex-direction:column; justify-content: left; margin: 30px 0px; color: black">
+                <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> A définir selon le périmètre d’intervention</p>
+                <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> Selon le nombre de personnes à traiter</p>
+                <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> Idéal pour les personnes à mobilité réduite, on pense à vou</p>
             </div>
             <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Citation requise</button>
           </div>
@@ -148,7 +150,9 @@ export default {
 .slide-fade-leave-active {
   transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
 }
-
+.service-name-red{
+    text-align: left;
+}
 .slide-fade-enter-from,
 .slide-fade-leave-to {
   transform: translateX(20px);
