@@ -39,7 +39,7 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
             <div style="align-items:flex-start; display: flex; flex-direction:column; justify-content: left; margin: 30px 0px">
                 <p><i class="bi bi-check-circle-fill"></i> Diagnostic téléphonique gratuit</p>
                 <p><i class="bi bi-check-circle-fill"></i> Conseils personnalisés</p>
-                <p><i class="bi bi-check-circle-fill"></i> Accompagnement professionnel</p>
+                <p><i class="bi bi-check-circle-fill"></i> Accompagnement professionnel, confidentiel</p>
             </div>
             <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Book Appointment</button>
           </div>
