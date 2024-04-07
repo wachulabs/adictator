@@ -52,6 +52,39 @@
             </p>
           </div>
         </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px; height:100%">
+            <div class="wrap-icon icon-1">
+              <img :src="stopalcohol" class="service-image"/>
+            </div>
+            <h3 class="mb-3 service-name-red">Alcool</h3>
+            <p style="color:black">
+              Nos méthodes vous aideront à prendre le contrôle et à vaincre la dépendance à l’alcool.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:white; padding: 20px; margin-bottom: 20px; height:100%">
+            <div class="wrap-icon icon-1">
+              <img :src="stopgaming" class="service-image"/>
+            </div>
+            <h3 class="mb-3 service-name-red">Dépendance au jeu</h3>
+            <p style="color:black">
+              Nous vous aiderons à arrêter de jouer et à transformer votre vie en une vie productive.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200" style="margin-bottom:10px">
+          <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px; height:100%">
+            <div class="wrap-icon icon-1">
+              <img :src="stopgambling" class="service-image"/>
+            </div>
+            <h3 class="mb-3 service-name-red">Jeu d'argent</h3>
+            <p style="color:black">
+              Nos méthodes vous aideront à vivre mieux après avoir arrêté de jouer.
+            </p>
+          </div>
+        </div>
         <div class="col-md-3" data-aos="fade-up" data-aos-delay="100" style="margin-bottom:10px">
           <div class="feature-1 text-center rounded-lg" style="background-color:#a5a6a5; display: flex; flex-direction: column-reverse; padding: 20px; margin-bottom: 20px; height:100%">
             <div class="wrap-icon icon-1">
@@ -97,6 +130,9 @@ import pain from "@/assets/img/pain.png"
 import weight from "@/assets/img/weight.png"
 import vaporizer from "@/assets/img/11.png"
 import can from "@/assets/img/IconCategorie-1-2048x2048.png"
+import stopalcohol from "@/assets/img/stopalcohol.webp"
+import stopgaming from "@/assets/img/stopgaming.jpg"
+import stopgambling from "@/assets/img/stopgambling.jpg"
 export default {
   data() {
     return {
@@ -106,7 +142,10 @@ export default {
       vaporizer,
       can,
       stress,
-      weight
+      weight,
+      stopalcohol,
+      stopgaming,
+      stopgambling
     };
   },
 };

@@ -185,7 +185,7 @@
 </template>
 
 <script>
-const WEB3FORMS_ACCESS_KEY = "5ca2a29e-1a41-4e09-a233-9f16b8f70a0e";
+const WEB3FORMS_ACCESS_KEY = "6daffa6e-f826-44ca-9d8d-5e89ee282369";
 
 export default {
   data() {

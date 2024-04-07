@@ -71,8 +71,8 @@
             <router-link
               class="btn_register"
               :class="{ active: current_router === '/register' }"
-              to="/register"
-              >Book Appointment</router-link
+              to="/book-appointment"
+              >Prendre rendez-vous</router-link
             >
           </li>
           <li v-if="loggedIn" class="dropdown" @click="handleDropdown(2)">
