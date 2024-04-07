@@ -4,6 +4,7 @@ import VueRouter from "vue-router";
 import LandPage from "@/pages/LandPage.vue";
 import AboutPage from "@/pages/About.vue";
 import ContactPage from "@/pages/ContactUS.vue";
+import BookAppointment from "@/pages/BookAppointment.vue";
 import PricingPage from "@/pages/Pricing.vue";
 import Login from "@/pages/auth/Login.vue";
 import Register from "@/pages/auth/Register.vue";
@@ -32,6 +33,14 @@ const routes = [
     name: "pricing",
     path: "/pricing",
     component: PricingPage,
+    meta: {
+      authRequired: false,
+    },
+  },
+  {
+    name: "book-appointment",
+    path: "/book-appointment",
+    component: BookAppointment,
     meta: {
       authRequired: false,
     },

@@ -16,7 +16,7 @@
           data-aos-delay=""
           style="
             margin-bottom: 0px;
-            background-color: black;
+            background-color: inherit;
             height: 500px;
             color: white;
             justify-content: space-between;
@@ -24,60 +24,12 @@
             flex-direction: column;
           "
         >
-          <h3
-            style="
-              color: white;
-              padding: 10px;
-              text-align: center;
-              width: 100%;
-              margin: 10px;
-            "
-          >
-            Coordonnées
-          </h3>
-          <p>
-            Envoyez-nous un message et nous vous répondrons dans les plus brefs
-            délais !
-          </p>
-          <div
-            style="
-              align-items: flex-start;
-              display: flex;
-              flex-direction: column;
-              justify-content: left;
-              margin: 30px 0px;
-            "
-          >
-            <p>
-              <i class="bi bi-telephone-x" style="color: #38b44a"></i>
-              0782218188
-            </p>
-            <p>
-              <i class="bi bi-envelope" style="color: #38b44a"></i>
-              adictatorfrance@gmail.com
-            </p>
-            <p>
-              <i class="bi bi-geo-alt-fill" style="color: #38b44a"></i> Centre
-              Ambroise Paré 68 rue Aristide Briand 78130 Les Mureaux
-            </p>
-          </div>
-          <p
-            class="social"
-            style="display: flex; justify-content: center; align-items: center"
-          >
-            <router-link to="#" class="social-item"
-              ><span class="bi bi-twitter"></span
-            ></router-link>
-            <router-link to="#" class="social-item"
-              ><span class="bi bi-facebook"></span
-            ></router-link>
-            <router-link to="#" class="social-item"
-              ><span class="bi bi-instagram"></span
-            ></router-link>
-            <router-link to="#" class="social-item"
-              ><span class="bi bi-linkedin"></span
-            ></router-link>
-          </p>
+        <div class="col-lg-12 control-section">
+    <div id="wrapper">
+         <ejs-datetimepicker id="datetimepicker" :placeholder="waterMarkText"></ejs-datetimepicker>
+    </div>
+</div>
+
         </div>
         <div
           class="col-md-8"
@@ -195,11 +147,11 @@ export default {
       phone: "",
       email: "",
       message: "",
-      selected: "Enquête générale",
+      selected: "General enquiry",
       options: [
-        { text: "Enquête générale", value: "Enquête générale" },
-        { text: "Partenariat", value: "Partenariat" },
-        { text: "Demander un devis", value: "Demander un devis" },
+        { text: "General enquiry", value: "General enquiry" },
+        { text: "Partnership", value: "Partnership" },
+        { text: "Request Quote", value: "Request Quote" },
       ],
     };
   },
