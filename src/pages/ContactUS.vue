@@ -91,7 +91,7 @@
                 <label>Prénom</label>
                 <input
                   type="text"
-                  name="name"
+                  name="firstname"
                   v-model="firstname"
                   placeholder="Entrez votre prénom"
                 />
@@ -100,7 +100,7 @@
                 <label>nom de famille</label>
                 <input
                   type="text"
-                  name="name"
+                  name="lastname"
                   v-model="lastname"
                   placeholder="Entrez votre deuxième nom"
                 />
@@ -110,8 +110,8 @@
               <div style="display: flex; flex-direction: column">
                 <label>E-mail</label>
                 <input
-                  type="text"
-                  name="name"
+                  type="email"
+                  name="email"
                   v-model="email"
                   placeholder="Entrez votre Email"
                 />
@@ -119,8 +119,8 @@
               <div style="display: flex; flex-direction: column">
                 <label>Téléphone</label>
                 <input
-                  type="text"
-                  name="name"
+                  type="tel"
+                  name="phone"
                   v-model="phone"
                   placeholder="Téléphone"
                 />
@@ -224,9 +224,12 @@ export default {
       const result = await response.json();
       if (result.success) {
         this.firstname = ""
-        this.secondname = ""
+        this.lastname = ""
         this.email =  ''
         this.message = ""
+        this.phone = ''
+        this.$awn.success("Demande envoyée avec succès.");
+        this.selected= "Enquête générale"
         console.log(result);
       }
     },

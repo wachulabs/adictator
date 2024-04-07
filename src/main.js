@@ -25,7 +25,6 @@ let options = {
   animationDuration: "1000"
 }
 
-
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(VeeValidate);
