@@ -2,6 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 import LandPage from "@/pages/LandPage.vue";
+import AboutPage from "@/pages/About.vue";
+import PricingPage from "@/pages/Pricing.vue";
 import Login from "@/pages/auth/Login.vue";
 import Register from "@/pages/auth/Register.vue";
 import RecoverAccount from "@/pages/auth/RecoverAccount.vue";
@@ -13,6 +15,22 @@ const routes = [
     name: "home",
     path: "/",
     component: LandPage,
+    meta: {
+      authRequired: false,
+    },
+  },
+  {
+    name: "pricing",
+    path: "/pricing",
+    component: PricingPage,
+    meta: {
+      authRequired: false,
+    },
+  },
+  {
+    name: "about-us",
+    path: "/about-us",
+    component: AboutPage,
     meta: {
       authRequired: false,
     },

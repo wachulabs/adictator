@@ -2,12 +2,14 @@
   <div id="app">
     <Header></Header>
     <router-view></router-view>
+    <Footer></Footer>
     <div v-show="false">{{ isIdle }}</div>
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 import { mapGetters } from "vuex";
 export default {
   name: "App",
@@ -18,6 +20,7 @@ export default {
   },
   components: {
     Header,
+    Footer
   },
   computed: {
     ...mapGetters(["remember"]),

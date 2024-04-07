@@ -23,15 +23,15 @@
           </li>
           <li @click="closeMenuState">
             <router-link
-              to="#"
-              :class="{ active: current_router === '/features' }"
+              to="about-us"
+              :class="{ active: current_router === '/about-us' }"
               >À propos de nous</router-link
             >
           </li>
           <li @click="closeMenuState">
             <router-link
-              to="#"
-              :class="{ active: current_router === '/princing' }"
+              to="/pricing"
+              :class="{ active: current_router === '/pricing' }"
               >Pricing</router-link
             >
           </li>

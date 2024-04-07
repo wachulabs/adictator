@@ -8,7 +8,7 @@
       <!--Publish></Publish-->
       <Trust></Trust>
     </div>
-    <Footer></Footer>
+    
     <transition name="fade">
       <div
         id="pagetop"
@@ -28,7 +28,7 @@ import Documentation from "@/components/Documentation.vue";
 import Review from "@/components/Review.vue";
 //import Publish from "@/components/Publish.vue";
 import Trust from "@/components/Trust.vue";
-import Footer from "@/components/Footer.vue";
+
 
 export default {
   components: {
@@ -39,7 +39,7 @@ export default {
     Review,
     //Publish,
     Trust,
-    Footer,
+   
   },
   data() {
     return {

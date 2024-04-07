@@ -54,7 +54,10 @@
                 data-aos-offset="-500"
                 :class="{ 'aos-init aos-animate': view.slowShow }"
               >
-                <router-link style="color:black; background-color: #38B44A" to="#" class="btn btn-outline-dark-green"
+              <router-link style="color:black; background-color: #38B44A; margin-right:20px" to="pricing" class="btn btn-outline-dark-green"
+                  >See Prices</router-link
+                >
+                <router-link style="color:black; background-color: #38B44A" to="book-appointment" class="btn btn-outline-dark-green"
                   >Book Appointment</router-link
                 >
               </p>
