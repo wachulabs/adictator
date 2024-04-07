@@ -57,7 +57,7 @@
             <router-link
               to="/contact-us"
               :class="{ active: current_router === '/contact-us' }"
-              >Contact Us</router-link
+              >Contactez-nous</router-link
             >
           </li>
           <!--li v-if="!loggedIn" @click="closeMenuState">
