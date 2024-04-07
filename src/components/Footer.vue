@@ -83,7 +83,7 @@ export default {
   padding: 60px 0;
   background: white;
   color: black;
-  border-top: solid;
+ 
 }
 .social-item {
   margin-right: 10px;

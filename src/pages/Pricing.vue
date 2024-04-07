@@ -97,6 +97,7 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
                 <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> A définir selon le périmètre d’intervention</p>
                 <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> Selon le nombre de personnes à traiter</p>
                 <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> Idéal pour les personnes à mobilité réduite, on pense à vou</p>
+                <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> CE, comité d’entreprise.</p>
             </div>
             <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Citation requise</button>
           </div>

@@ -1,12 +1,27 @@
 <template>
-  <section class="section" style="margin-top:100px; margin-bottom: 50px;">
+  <section class="section" style="margin-top: 100px; margin-bottom: 50px">
     <div class="container">
-      <form @submit.prevent="submitForm">
-        <input type="text" name="name" v-model="name" />
-        <input type="email" name="email" v-model="email" />
-        <textarea name="message" v-model="message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      <div class="row align-items-center rounded-lg">
+        <div
+          class="col-md-4 rounded-lg"
+          data-aos="fade-up"
+          data-aos-delay=""
+          style="margin-bottom: 10px; background-color: black; height: 500px;"
+        ></div>
+        <div
+          class="col-md-8"
+          data-aos="fade-up"
+          data-aos-delay=""
+          style="margin-bottom: 10px"
+        >
+          <form @submit.prevent="submitForm">
+            <input type="text" name="name" v-model="name" />
+            <input type="email" name="email" v-model="email" />
+            <textarea name="message" v-model="message"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 </template>
