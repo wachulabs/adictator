@@ -1,13 +1,15 @@
 <template>
   <section class="section" style="margin-top: 100px; margin-bottom: 50px">
     <div class="container">
-      <div class="row align-items-center rounded-lg">
+      <div class="row align-items-center rounded-lg" style="box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3); background-color:#FFFFFF; margin:20px; padding: 10px">
         <div
           class="col-md-4 rounded-lg"
           data-aos="fade-up"
           data-aos-delay=""
-          style="margin-bottom: 10px; background-color: black; height: 500px;"
-        ></div>
+          style="margin-bottom: 0px; background-color: black; height: 500px;color:white"
+        >
+    <h3>Coordonnées</h3>
+    </div>
         <div
           class="col-md-8"
           data-aos="fade-up"
