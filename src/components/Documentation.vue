@@ -4,7 +4,7 @@
     <div class="container rounded-lg" style="background-color: #f7f8f2">
       <div class="row justify-content-center text-center mb-5">
         <div class="" data-aos="fade-up">
-          <h2 class="">POURQUOI NOUS CHOISIR</h2>
+          <h2 class="section-heading">POURQUOI NOUS CHOISIR</h2>
         </div>
       </div>
       <div class="row">

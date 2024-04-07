@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 
 import LandPage from "@/pages/LandPage.vue";
 import AboutPage from "@/pages/About.vue";
+import ContactPage from "@/pages/ContactUS.vue";
 import PricingPage from "@/pages/Pricing.vue";
 import Login from "@/pages/auth/Login.vue";
 import Register from "@/pages/auth/Register.vue";
@@ -15,6 +16,14 @@ const routes = [
     name: "home",
     path: "/",
     component: LandPage,
+    meta: {
+      authRequired: false,
+    },
+  },
+  {
+    name: "contact-us",
+    path: "/contact-us",
+    component: ContactPage,
     meta: {
       authRequired: false,
     },

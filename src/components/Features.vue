@@ -3,7 +3,7 @@
     <div class="container rounded-lg" style="background-color: #34B64A">
       <div class="row justify-content-center text-center mb-5">
         <div class="" data-aos="fade-up">
-          <h2 class="">SERVICES QUE NOUS PROPOSONS</h2>
+          <h2 class="section-heading">SERVICES QUE NOUS PROPOSONS</h2>
         </div>
       </div>
 

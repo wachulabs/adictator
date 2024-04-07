@@ -1,5 +1,5 @@
 <template>
-  <section class="section" id="" style="margin-top:100px">
+  <section class="section" id="" style="margin-top:100px; margin-bottom: 50px;">
     
 
     <div class="container">
@@ -32,7 +32,7 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
           <div class="row" style="justify-content:center; padding: 20px">
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
           <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%; justify-content: space-between;">
-            <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">GRATUIT</span></h3>
+            <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">10 MIN d'appel téléphonique GRATUIT</span></h3>
             <p style="color:#38B44A; font-size:30px; text-align:left">
                 Consultation téléphonique.
             </p>
@@ -75,9 +75,9 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
           <div class="feature-1 text-center rounded-lg" style="background-color:inherit; display: flex; flex-direction: column; padding: 20px; margin-bottom: 20px; height:100%; justify-content: space-between;">
-            <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">€50</span>/session</h3>
+            <h3 class="mb-3 service-name-red"><span style="font-size: 50px; color:#38B44A;">€50</span>/ la séance</h3>
             <p style="color:#38B44A; font-size:30px; text-align:left">
-                séance d'initiation.
+                Séance garantie annuel.
             </p>
             <div style="align-items:flex-start; display: flex; flex-direction:column; justify-content: left; margin: 30px 0px">
                 <p><i class="bi bi-check-circle-fill"></i> Garantie 1 ans si rechute dans l’année Une nouvell séance offert</p>

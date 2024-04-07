@@ -40,7 +40,7 @@
               >Blog</router-link
             >
           </li>
-          <li class="dropdown" @click="handleDropdown(1)">
+          <!--li class="dropdown" @click="handleDropdown(1)">
             <router-link to="#"
               ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
             ></router-link>
@@ -52,21 +52,21 @@
               <li @click="closeMenuState"><router-link to="#">Drop Down 3</router-link></li>
               <li @click="closeMenuState"><router-link to="#">Drop Down 4</router-link></li>
             </ul>
-          </li>
+          </li-->
           <li @click="closeMenuState">
             <router-link
-              to="#"
-              :class="{ active: current_router === '/contactus' }"
+              to="/contact-us"
+              :class="{ active: current_router === '/contact-us' }"
               >Contact Us</router-link
             >
           </li>
-          <li v-if="!loggedIn" @click="closeMenuState">
+          <!--li v-if="!loggedIn" @click="closeMenuState">
             <router-link
               to="/login"
               :class="{ active: current_router === '/login' }"
               >Login</router-link
             >
-          </li>
+          </li-->
           <li v-if="!loggedIn" @click="closeMenuState" class="rounded">
             <router-link
               class="btn_register"
