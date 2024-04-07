@@ -49,10 +49,14 @@
               <h3 style="color:#38B44A">Contact</h3>
               <ul class="list-unstyled">
                 <li>
-                  <router-link to="#">Get from the App Store</router-link>
+                  <i class="bi bi-envelope" style="color:#38B44A"></i> adictatorfrance@gmail.com
                 </li>
                 <li>
-                  <router-link to="#">Get from the Play Store</router-link>
+                  <i class="bi bi-telephone-x" style="color:#38B44A"></i> 0782218188 
+                </li>
+                <li>
+                  <i class="bi bi-geo-alt" style="color:#38B44A"></i> Centre Ambroise Paré 
+68 rue Aristide Briand 78130 Les Mureaux
                 </li>
               </ul>
             </div>
