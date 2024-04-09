@@ -39,7 +39,7 @@
                 class="col-lg-8 text-center text-lg-start animate__animated animate__fadeInLeft"
               >
                 <h1 data-aos="fade-up" style="color: #0f172a">
-                  <span style="color: #38b44a">About Adictator</span>
+                  <span style="color: #38b44a">À propos d'Adictator</span>
                 </h1>
 
                 <p
@@ -63,7 +63,7 @@
                     style="color: black; background-color: #38b44a"
                     to="#"
                     class="btn btn-outline-dark-green"
-                    >Book Appointment</router-link
+                    >Prendre rendez-vous</router-link
                   >
                 </p>
               </div>
@@ -489,7 +489,7 @@
                   <img :src="img5" style="width: inherit" class="rounded-lg" />
                 </div>
                 <div class="col-md-12 mb-5">
-                  <video width="320" height="240" controls style="width:inherit" class="rounded-lg">
+                  <video width="320" height="240" controls style="width:inherit" class="rounded-lg" muted=true preload=true>
                     <source :src="img6" type="video/mp4" />
                     <!--source src="movie.ogg" type="video/ogg" /-->
                     Your browser does not support the video tag.
