@@ -37,27 +37,134 @@
             <div
               class="col-lg-8 text-center text-lg-start animate__animated animate__fadeInLeft"
             >
-              <h1 data-aos="fade-right" style="color:#0f172a"><span style="color:#f21e1e">Accueil pour tous vos</span> besoins en <span style="color:#38B44A">auriculothérapie</span></h1>
+              <h1 data-aos="fade-right" style="color: #0f172a">
+                <span style="color: #f21e1e">Accueil pour tous vos</span>
+                besoins en <span style="color: #38b44a">auriculothérapie</span>
+              </h1>
 
-              <p
-                class="mb-5"
-                data-aos="fade-right"
-                data-aos-delay="100"
-                :class="{ 'aos-init aos-animate': view.slowShow }"
-                style="color:black"
-              >
-              Nous utilisons du matériel unique, protégé et conforme aux normes CE en vigueur. Notre traitement vise à stimuler les points de l'oreille à l'aide d'un laser de faible intensité, totalement indolore et sans effets secondaires, agissant sur la dépendance physique à la nicotine. Le tout en éliminant l'envie et l'envie de recommencer à fumer dès les premiers instants après votre cure de sevrage tabagique.
-              </p>
+              
+                <carousel-3d
+                  :perspective="30"
+                  :border="0"
+                  :width="585"
+                  :height="370"
+                  :controls-visible="true"
+                  :space="500"
+                  :clickable="true"
+                  :controls-prev-html="arrowLeft"
+                  :controls-next-html="arrowRight"
+                  :display="1"
+                  :loop="true"
+                  :controlsVisible="false"
+                  :autoplay="true"
+                  :autoplayTimeout="10000"
+                >
+                  <slide :index="1">
+                    <div class="swiper-slide" style="height:100%">
+                      <div class="review text-center">
+                        Nous utilisons du matériel unique, protégé et conforme
+                        aux normes CE en vigueur. Notre traitement vise à
+                        stimuler les points de l'oreille à l'aide d'un laser de
+                        faible intensité, totalement indolore et sans effets
+                        secondaires, agissant sur la dépendance physique à la
+                        nicotine. Le tout en éliminant l'envie et l'envie de
+                        recommencer à fumer dès les premiers instants après
+                        votre cure de sevrage tabagique.
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="0">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Reprenez le contrôle de vous-même
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="2">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Libérez-vous de vos addictions en une seule séance et ouvrez les portes d'une vie plus saine et épanouissante
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="3">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Libérez-vous de l'emprise, vivez une vie sans dépendance.
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="4">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Brisez les chaînes de l'addiction, embrassez la liberté d'une vie sans dépendance.
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="5">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Libérez-vous de vos chaînes, embrassez votre liberté.
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="6">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Libérez-vous de vos chaînes, embrassez votre liberté.
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="7">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Un chemin vers une vie sans addictions, une séance à la fois.
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="8">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Transformez votre vie, dites adieu à vos dépendances.
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="9">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Reprenez le contrôle, vivez une vie pleine de santé et de bonheur.
+                      </div>
+                    </div>
+                  </slide>
+                  <slide :index="10">
+                    <div class="swiper-slide">
+                      <div class="review text-center">
+                        Le pouvoir de changer réside en vous, nous sommes là pour vous guider.
+                      </div>
+                    </div>
+                  </slide>
+                </carousel-3d>
+              
               <p
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-offset="-500"
                 :class="{ 'aos-init aos-animate': view.slowShow }"
               >
-              <router-link style="color:black; background-color: #38B44A; margin-right:20px" to="pricing" class="btn btn-outline-dark-green"
+                <router-link
+                  style="
+                    color: black;
+                    background-color: #38b44a;
+                    margin-right: 20px;
+                  "
+                  to="pricing"
+                  class="btn btn-outline-dark-green"
                   >See Prices</router-link
                 >
-                <router-link style="color:black; background-color: #38B44A" to="book-appointment" class="btn btn-outline-dark-green"
+                <router-link
+                  style="color: black; background-color: #38b44a"
+                  to="book-appointment"
+                  class="btn btn-outline-dark-green"
                   >Book Appointment</router-link
                 >
               </p>
@@ -70,7 +177,6 @@
                 alt="Image"
                 class="phone-1"
                 data-aos="fade-right"
-                
               />
               <!--img
                 :src="view.img2"
@@ -89,7 +195,12 @@
 <script>
 import img1 from "@/assets/img/im1.jpg";
 import img2 from "@/assets/img/im2.jpg";
+import { Carousel3d, Slide } from "vue-carousel-3d";
 export default {
+  components: {
+    Carousel3d,
+    Slide,
+  },
   data() {
     return {
       view: {
@@ -120,6 +231,12 @@ export default {
   transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
 }
 
+.review{
+  align-items: center;
+  justify-content:center;
+  font-size: 40px;
+  color:black
+}
 .slide-fade-enter-from,
 .slide-fade-leave-to {
   transform: translateX(20px);
@@ -142,8 +259,4 @@ export default {
     margin-left: 7%;
   }
 }
-
 </style>
-
-
-

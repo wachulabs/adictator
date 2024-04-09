@@ -18,7 +18,7 @@ export default {
   },
   setup(props) {
     const paid = ref(false);
-    const CLIENT_ID = 'AbILnWX9VaE2qd-5LtP2bf0DEB2uur7ewv7rCFIrWfdsZs3Jx-EjxOJP6MEYpY_2m2bPtXFjXJ5wPTbu';
+    const CLIENT_ID = 'ATIdY94uYrYHuKzDOyEHgiB_WFzVsWdm4NXxqf6UQam63rpMGc5L8CidxGyUti4mQQjNlc9CWud2dvht';
 
     onBeforeMount(() => {
       loadPaypalScript(CLIENT_ID);
