@@ -41,7 +41,7 @@
                 <span style="color: #f21e1e">Accueil pour tous vos</span>
                 besoins en <span style="color: #38b44a">auriculothérapie</span>
               </h1>
-
+              <div></div>
               
                 <carousel-3d
                   :perspective="30"
@@ -51,8 +51,6 @@
                   :controls-visible="true"
                   :space="500"
                   :clickable="true"
-                  :controls-prev-html="arrowLeft"
-                  :controls-next-html="arrowRight"
                   :display="1"
                   :loop="true"
                   :controlsVisible="false"
@@ -157,14 +155,14 @@
                     background-color: #38b44a;
                     margin-right: 20px;
                   "
-                  to="pricing"
-                  class="btn btn-outline-dark-green"
+                  to="/pricing"
+                  class="btn btn-outline-dark-green mb-1"
                   >See Prices</router-link
                 >
                 <router-link
                   style="color: black; background-color: #38b44a"
-                  to="book-appointment"
-                  class="btn btn-outline-dark-green"
+                  to="/book-appointment"
+                  class="btn btn-outline-dark-green mb-1"
                   >Book Appointment</router-link
                 >
               </p>

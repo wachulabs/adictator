@@ -8,15 +8,13 @@
       <!--Publish></Publish-->
       <Trust></Trust>
     </div>
-    
+
     <transition name="fade">
-      <div
-        id="pagetop"
-        class="fixed flex"
-        v-show="scY > 300"
-        @click="toTop"
-      >
-        <i class="bi bi-arrow-up d-line"></i>
+      <div id="pagetop" class="fixed flex">
+        <button class="rounded-lg mb-5"><b>Appel de 10 Minutes offert !</b></button>
+        <div id="i" v-show="scY > 300" @click="toTop">
+        <i class="bi bi-arrow-up d-line" ></i>
+        </div>
       </div>
     </transition>
   </div>
@@ -29,17 +27,14 @@ import Review from "@/components/Review.vue";
 //import Publish from "@/components/Publish.vue";
 import Trust from "@/components/Trust.vue";
 
-
 export default {
   components: {
-    
     Banner,
     Features,
     Documentation,
     Review,
     //Publish,
     Trust,
-   
   },
   data() {
     return {
@@ -71,20 +66,33 @@ export default {
 <style>
 #pagetop {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
+  justify-content: end;
+  align-items: end;
   position: fixed;
   bottom: 20px;
   right: 30px;
-  z-index: 996;
-  border-radius: 50%;
-  background-color: #1fa78e;
+  z-index: 996;  
+  flex-direction: column;
 }
 
-#pagetop i {
-  font-weight: 900;
+#pagetop #i {
+  border-radius: 50%;
+  background-color: #1fa78e;
   color: white;
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pagetop button {
+  
+  color: black;
+  background-color: white;
+  border-color: red;
+  width: 300px;
+  padding: 20px;
+  box-shadow: -5px -5px 5px 5px #888888;
 }
 </style>
