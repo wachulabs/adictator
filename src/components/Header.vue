@@ -60,13 +60,13 @@
               >Contactez-nous</router-link
             >
           </li>
-          <!--li v-if="!loggedIn" @click="closeMenuState">
+          <li v-if="!loggedIn" @click="closeMenuState">
             <router-link
-              to="/login"
-              :class="{ active: current_router === '/login' }"
-              >Login</router-link
+              to="/faqs"
+              :class="{ active: current_router === '/faqs' }"
+              >FAQs</router-link
             >
-          </li-->
+          </li>
           <li v-if="!loggedIn" @click="closeMenuState" class="rounded">
             <router-link
               class="btn_register"

@@ -11,6 +11,7 @@ import Register from "@/pages/auth/Register.vue";
 import RecoverAccount from "@/pages/auth/RecoverAccount.vue";
 import Verify from "@/pages/auth/Verify.vue";
 import PageNotFound from "@/pages/PageNotFound.vue";
+import FAQs from "@/pages/FAQs.vue"
 
 const routes = [
   {
@@ -49,6 +50,14 @@ const routes = [
     name: "about-us",
     path: "/about-us",
     component: AboutPage,
+    meta: {
+      authRequired: false,
+    },
+  },
+  {
+    name: "faqs",
+    path: "/faqs",
+    component: FAQs,
     meta: {
       authRequired: false,
     },

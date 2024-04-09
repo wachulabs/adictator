@@ -4,6 +4,16 @@
     <router-view></router-view>
     <Footer></Footer>
     <div v-show="false">{{ isIdle }}</div>
+    <transition name="fade">
+      <div id="pagetop" class="fixed flex">
+        <button class="rounded-lg mb-5">
+          <b>Appel de 10 Minutes offert !</b>
+        </button>
+        <div id="i" v-show="scY > 300" @click="toTop">
+          <i class="bi bi-arrow-up d-line"></i>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -16,11 +26,13 @@ export default {
   data() {
     return {
       idle: false,
+      scTimer: 0,
+      scY: 0,
     };
   },
   components: {
     Header,
-    Footer
+    Footer,
   },
   computed: {
     ...mapGetters(["remember"]),
@@ -33,6 +45,25 @@ export default {
       if (this.isIdle && !this.remember) {
         this.$store.dispatch("logout");
       }
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      if (this.scTimer) return;
+      this.scTimer = setTimeout(() => {
+        this.scY = window.scrollY;
+        clearTimeout(this.scTimer);
+        this.scTimer = 0;
+      }, 100);
+    },
+    toTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
     },
   },
 };
