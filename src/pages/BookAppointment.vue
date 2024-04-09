@@ -2,10 +2,10 @@
   <section class="section" style="margin-top: 100px; margin-bottom: 50px">
     <div class="container">
       <div class="row justify-content-center text-center mb-5">
-            <div class="" data-aos="fade-up" style="width:100%">
-              <h2 class="section-heading" style="">Prendre rendez-vous</h2>
-            </div>
-          </div>
+        <div class="" data-aos="fade-up" style="width: 100%">
+          <h2 class="section-heading" style="">Prendre rendez-vous</h2>
+        </div>
+      </div>
       <div
         class="row align-items-center rounded-lg"
         style="
@@ -29,8 +29,17 @@
             flex-direction: column;
           "
         >
-        <date-picker v-model="time1" valueType="format" type="datetime" placeholder="sélectionner l'heure du rendez-vous" :confirm="true" :open="true" :show-second="false" :show-time-header="true" prefix-class="mx"></date-picker>
-
+          <date-picker
+            v-model="time1"
+            valueType="format"
+            type="datetime"
+            placeholder="sélectionner l'heure du rendez-vous"
+            :confirm="true"
+           
+            :show-second="false"
+            :show-time-header="true"
+            prefix-class="mx"
+          ></date-picker>
         </div>
         <div
           class="col-md-8"
@@ -80,10 +89,7 @@
               </div>
             </div>
             <div style="padding: 20px 20px 20px 30px">
-              <b-form-group
-                label="Service"
-                v-slot="{ ariaDescribedby }"
-              >
+              <b-form-group label="Service" v-slot="{ ariaDescribedby }">
                 <b-form-radio-group
                   id="radio-slots"
                   v-model="selected"
@@ -122,13 +128,18 @@
                 "
               ></textarea>
             </div>
+            <div>
+              <label>Payer un acompte</label>
+              <CheckoutPayment />
+            </div>
             <div style="display: flex; justify-content: end; margin: 10px">
               <button
                 type="submit"
                 style="padding: 20px; border: none; background-color: #38b44a"
                 class="rounded-lg"
+                disabled=true
               >
-              Prendre rendez-vous
+                Prendre rendez-vous
               </button>
             </div>
           </form>
@@ -140,31 +151,50 @@
 
 <script>
 const WEB3FORMS_ACCESS_KEY = "6daffa6e-f826-44ca-9d8d-5e89ee282369";
-import 'vue2-datepicker/locale/fr';
-import DatePicker from 'vue2-datepicker';
-  import 'vue2-datepicker/index.css';
+import "vue2-datepicker/locale/fr";
+import DatePicker from "vue2-datepicker";
+import CheckoutPayment from "@/components/CheckoutPayment.vue"
+import "vue2-datepicker/index.css";
 
 export default {
-  components: { DatePicker },
+  components: { DatePicker, CheckoutPayment },
   data() {
     return {
       firstname: "",
       lastname: "",
       phone: "",
-      datetime:"datetime",
+      datetime: "datetime",
       email: "",
       message: "",
-      ss:false,
+      ss: false,
       selected: "Traitement de la dépendance à l'alcool",
       waterMarkText: "Select a date and time",
-      time1:"",
+      time1: "",
       options: [
-        { text: "Traitement de la dépendance à l'alcool", value: "Traitement de la dépendance à l'alcool" },
-        { text: "Traitement de la dépendance au jeu", value: "Traitement de la dépendance au jeu" },
-        { text: "Traitement de la dépendance au sucre", value: "Traitement de la dépendance au sucre" },
-        { text: "amélioration de la libido", value: "amélioration de la libido" },
-        { text: "Traitement de la dépendance au cannabis", value:"Traitement de la dépendance au cannabis"},
-        { text: "Traitement de la dépendance au tabac", value: "Traitement de la dépendance au tabac"}
+        {
+          text: "Traitement de la dépendance à l'alcool",
+          value: "Traitement de la dépendance à l'alcool",
+        },
+        {
+          text: "Traitement de la dépendance au jeu",
+          value: "Traitement de la dépendance au jeu",
+        },
+        {
+          text: "Traitement de la dépendance au sucre",
+          value: "Traitement de la dépendance au sucre",
+        },
+        {
+          text: "amélioration de la libido",
+          value: "amélioration de la libido",
+        },
+        {
+          text: "Traitement de la dépendance au cannabis",
+          value: "Traitement de la dépendance au cannabis",
+        },
+        {
+          text: "Traitement de la dépendance au tabac",
+          value: "Traitement de la dépendance au tabac",
+        },
       ],
     };
   },
@@ -184,18 +214,18 @@ export default {
           Phone: this.phone,
           Service: this.selected,
           "Informations Complémentaires": this.message,
-          "Time":this.time1
+          Time: this.time1,
         }),
       });
       const result = await response.json();
       if (result.success) {
         this.$awn.success("Rendez-vous pris avec succès.");
-        this.firstname = ""
-        this.lastname = ""
-        this.email =  ""
-        this.message = ""
-        this.phone= ""
-        this.selected = "Traitement de la dépendance à l'alcool"
+        this.firstname = "";
+        this.lastname = "";
+        this.email = "";
+        this.message = "";
+        this.phone = "";
+        this.selected = "Traitement de la dépendance à l'alcool";
         console.log(result);
       }
     },
