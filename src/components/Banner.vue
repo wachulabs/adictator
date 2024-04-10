@@ -41,7 +41,7 @@
                 <span style="color: #f21e1e">Accueil pour tous vos</span>
                 besoins en <span style="color: #38b44a">auriculothérapie</span>
               </h1>
-              <div></div>
+              <div style="background-color: inherit;">
               
                 <carousel-3d
                   :perspective="30"
@@ -142,6 +142,7 @@
                     </div>
                   </slide>
                 </carousel-3d>
+                </div>
               
               <p
                 data-aos="fade-right"

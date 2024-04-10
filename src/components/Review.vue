@@ -65,13 +65,10 @@
                 <span class="bi bi-star-fill"></span>
                 <span class="bi bi-star-fill muted"></span>
               </p>
-              <h3>This App is easy to use!</h3>
+              <h3>Bons services!</h3>
               <blockquote>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-                  ea delectus pariatur, numquam aperiam dolore nam optio dolorem
-                  facilis itaque voluptatum recusandae deleniti minus animi,
-                  provident voluptates consectetur maiores quos.
+                  Les services d'auriculothérapie d'Adictator ont été pour moi une véritable révélation. Leur approche personnalisée, combinée à l'expertise de leurs praticiens, m'a aidé à surmonter mon addiction avec un succès remarquable. Je recommande vivement !.
                 </p>
               </blockquote>
 
