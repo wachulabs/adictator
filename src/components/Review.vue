@@ -10,7 +10,7 @@
         :perspective="30"
         :border="0"
         :width="585"
-        :height="370"
+        :height="auto"
         :controls-visible="true"
         :space="500"
         :clickable="true"
@@ -18,7 +18,7 @@
         :controls-next-html="arrowRight"
         :display="1"
       >
-        <slide :index="0">
+        <!--slide :index="0">
           <div class="swiper-slide">
             <div class="review text-center">
               <div>
@@ -54,8 +54,8 @@
               </div>
             </div>
           </div>
-        </slide>
-        <slide :index="1">
+        </slide-->
+        <slide :index="0">
           <div class="swiper-slide">
             <div class="review text-center">
               <p class="stars">
@@ -77,12 +77,45 @@
 
               <p class="review-user">
                 <img
+                  :src="person1"
+                  alt="Image"
+                  class="img-fluid rounded-circle mb-3"
+                />
+                <span class="d-block">
+                  <span class="text-black">Camille Dubois</span>, &mdash; Client heureux
+                </span>
+              </p>
+            </div>
+          </div>
+        </slide>
+        <slide :index="1">
+          <div class="swiper-slide">
+            <div class="review text-center">
+              <p class="stars">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill muted"></span>
+              </p>
+              <h3>Cette procédure est indolore!</h3>
+              <blockquote>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+                  ea delectus pariatur, numquam aperiam dolore nam optio dolorem
+                  facilis itaque voluptatum recusandae deleniti minus animi,
+                  provident voluptates consectetur maiores quos.
+                </p>
+              </blockquote>
+
+              <p class="review-user">
+                <img
                   :src="person2"
                   alt="Image"
                   class="img-fluid rounded-circle mb-3"
                 />
                 <span class="d-block">
-                  <span class="text-black">Johan Smith</span>, &mdash; App User
+                  <span class="text-black">Johan Smith</span>, &mdash; Client heureux
                 </span>
               </p>
             </div>
@@ -98,13 +131,10 @@
                 <span class="bi bi-star-fill"></span>
                 <span class="bi bi-star-fill"></span>
               </p>
-              <h3>Awesome functionality!</h3>
+              <h3>Ce traitement est efficace !</h3>
               <blockquote>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-                  ea delectus pariatur, numquam aperiam dolore nam optio dolorem
-                  facilis itaque voluptatum recusandae deleniti minus animi,
-                  provident voluptates consectetur maiores quos.
+                  Les techniques d'auriculothérapie d'Adictator sont révolutionnaires, abordant l'addiction à sa source pour une guérison durable. Je suis très satisfait des résultats et recommande vivement leurs services à ceux cherchant un traitement efficace contre l'addiction.
                 </p>
               </blockquote>
 
@@ -115,8 +145,7 @@
                   class="img-fluid rounded-circle mb-3"
                 />
                 <span class="d-block">
-                  <span class="text-black">Jean Thunberg</span>, &mdash; App
-                  User
+                  <span class="text-black">Charlotte Martin</span>, &mdash; Client heureux
                 </span>
               </p>
             </div>
@@ -170,11 +199,16 @@ export default {
   height: 100% !important;
   border-radius: 10px;
 }
-.review {
+/*.review {
   padding: 10px 20px;
   height: 100%;
   display:flex;
+}*/
+.review {
+  padding: 10px 20px;
+  height: 100%;
 }
+
 .ff{
   width:50%
 }

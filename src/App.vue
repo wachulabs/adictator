@@ -4,9 +4,22 @@
     <router-view></router-view>
     <Footer></Footer>
     <div v-show="false">{{ isIdle }}</div>
+    <b-modal id="bv-modal-example" centered hide-footer>
+      <template #modal-title> Numéro de téléphone </template>
+      <div class="d-block text-center flex">
+        <h3 ref="myinput">0782218188 </h3> <button @click="copy" style="color:blue;border:none"><i class="bi bi-clipboard-check-fill"></i> Copy</button>
+      </div>
+      <b-button class="mt-3" block @click="$bvModal.hide('bv-modal-example')"
+        >Close Me</b-button
+      >
+    </b-modal>
+
     <transition name="fade">
       <div id="pagetop" class="fixed flex">
-        <button class="rounded-lg mb-5">
+        <button
+          class="rounded-lg mb-5"
+          @click="$bvModal.show('bv-modal-example')"
+        >
           <b>Appel de 10 Minutes offert !</b>
         </button>
         <div id="i" v-show="scY > 300" @click="toTop">
@@ -20,6 +33,7 @@
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+
 import { mapGetters } from "vuex";
 export default {
   name: "App",
@@ -65,6 +79,10 @@ export default {
         behavior: "smooth",
       });
     },
+    async copy() {
+      this.$refs.myinput.focus();
+      await navigator.clipboard.writeText(this.$refs.myinput.innerText);
+    }
   },
 };
 </script>

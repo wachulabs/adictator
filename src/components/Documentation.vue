@@ -1,4 +1,3 @@
-
 <template>
   <section class="section" style="padding-top: 10px">
     <div class="container rounded-lg" style="background-color: #f7f8f2">
@@ -255,7 +254,14 @@
       </div>
     </div>
     <div class="container rounded-lg">
-      <div class="rounded-lg" style="margin: 10px; box-shadow: -5px -5px 5px 5px #888888; padding:20px">
+      <div
+        class="rounded-lg"
+        style="
+          margin: 10px;
+          box-shadow: -5px -5px 5px 5px #888888;
+          padding: 20px;
+        "
+      >
         <div class="row justify-content-center text-center mb-5">
           <div class="" data-aos="fade-up">
             <h2 class="">TROUVER UN PRATICIEN</h2>
@@ -287,6 +293,46 @@
         </div>
       </div>
     </div>
+    <div class="container rounded-lg">
+      <div
+        class="rounded-lg"
+        style="
+          margin: 10px;
+          box-shadow: -5px -5px 5px 5px #f3f5f6;
+          padding: 20px;
+        "
+      >
+        <div class="row justify-content-center text-center mb-5">
+          <div class="" data-aos="fade-up">
+            <h2 class="section-heading">FAQs</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-12 justify-content-center text-center flex"
+            data-aos="fade-up"
+            data-aos-delay=""
+          >
+            <div class="justify-center flex">
+              <VueFaqAccordion :items="myItems" :activeColor="ac" class="justify-center"/>
+            </div>
+          </div>
+          <div
+            class="col-md-12 mt-2"
+            data-aos="fade-up"
+            data-aos-delay=""
+            style="display: flex; align-items: center; justify-content: end"
+          >
+            <button
+              class="rounded-lg"
+              style="background-color: #38b44a; padding: 20px; border: none"
+            >
+            See more FAQs
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 <script>
@@ -298,9 +344,39 @@ import weight from "@/assets/img/weight.png";
 import vaporizer from "@/assets/img/11.png";
 import can from "@/assets/img/IconCategorie-1-2048x2048.png";
 import why from "@/assets/img/why.jpg";
+import VueFaqAccordion from "vue-faq-accordion";
 export default {
+  components: {
+    VueFaqAccordion,
+  },
   data() {
     return {
+      ac: "#38b44a",
+      myItems: [
+        {
+          title: "Est-ce que ça marche vraiment ?",
+          value:
+            "L’auriculothérapie laser fonctionne très bien pour le sevrage tabagique. Des centaines de milliers de personnes ont déjà opté pour cette solution pour arrêter de fumer ou autre. On entend même bien souvent que cela est magique. Bien sûr il faut ajouter à cela un zeste de volonté. Cette solution vous enlève plus de 70 % de l’envie les 30 % autres reste à votre charge.",
+          category: "",
+        },
+        {
+          title: "Est-ce que ça fait mal ?",
+          value: "Aucune douleur n’est ressenti pendant et après une séance",
+          category: "",
+        },
+        {
+          title: "Quel est le risque de rechute ?",
+          value:
+            "Le risque de rechute ne tient qu’à vous . On vous débranche la prise de l’envie à 70 % à vous de ne pas la reconnecter, mais vous apprécierez tellement votre nouvelle vie de non-fumeur qu’il serait vraiment dommage de replonger pour x ou y raison .",
+          category: "",
+        },
+        {
+          title: "Est-ce que c’est remboursé par la sécurité sociale ?",
+          value:
+            "Malheureusement, la sécurité sociale ne prend pas en charge le remboursement de cette thérapie cela dit certaines mutuelles peuvent rembourser plus de la moitié du montant d’une séance.",
+          category: "",
+        },
+      ],
       tobacco: tobacco,
       sugar: sugar,
       pain: pain,

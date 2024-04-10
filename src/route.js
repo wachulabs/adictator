@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 
 import LandPage from "@/pages/LandPage.vue";
 import AboutPage from "@/pages/About.vue";
+import PartnersPage from "@/pages/Partners.vue";
 import ContactPage from "@/pages/ContactUS.vue";
 import BookAppointment from "@/pages/BookAppointment.vue";
 import PricingPage from "@/pages/Pricing.vue";
@@ -18,6 +19,14 @@ const routes = [
     name: "home",
     path: "/",
     component: LandPage,
+    meta: {
+      authRequired: false,
+    },
+  },
+  {
+    name: "partners",
+    path: "/partners",
+    component: PartnersPage,
     meta: {
       authRequired: false,
     },
@@ -105,6 +114,11 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+    })
   const user = JSON.parse(localStorage.getItem("vuex"));
   const loggedIn = user ? user.auth.status.loggedIn : false;
   if (to.meta.authRequired && !loggedIn) {

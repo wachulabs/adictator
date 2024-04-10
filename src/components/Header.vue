@@ -36,8 +36,8 @@
             >
           </li>
           <li @click="closeMenuState">
-            <router-link to="#" :class="{ active: current_router === '/blog' }"
-              >Blog</router-link
+            <router-link to="/partners" :class="{ active: current_router === '/partners' }"
+              >devenir partenaire adictator</router-link
             >
           </li>
           <!--li class="dropdown" @click="handleDropdown(1)">

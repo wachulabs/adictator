@@ -12,7 +12,7 @@
         >
         <div class="row justify-content-center text-center mb-5">
             <div class="" data-aos="fade-up" style="width:100%">
-              <h2 class="section-heading" style="text-align: left;">Forfaits et tarifs</h2>
+              <h2 class="section-heading" style="text-align: left;">FAQs</h2>
             </div>
           </div>
           <VueFaqAccordion :items="myItems" />
