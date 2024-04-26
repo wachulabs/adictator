@@ -15,31 +15,74 @@
           padding: 10px;
         "
       >
-        <div
+      <div
           class="col-md-4 rounded-lg"
           data-aos="fade-up"
           data-aos-delay=""
           style="
             margin-bottom: 0px;
-            background-color: inherit;
-            height: 500px;
+            background-color: black;
+            align-self:stretch;
             color: white;
-            justify-content: space-between;
+            justify-content: center;
             display: flex;
             flex-direction: column;
           "
         >
-          <date-picker
-            v-model="time1"
-            valueType="format"
-            type="datetime"
-            placeholder="sélectionner l'heure du rendez-vous"
-            :confirm="true"
-           
-            :show-second="false"
-            :show-time-header="true"
-            prefix-class="mx"
-          ></date-picker>
+          <h3
+            style="
+              color: white;
+              padding: 10px;
+              text-align: center;
+              width: 100%;
+              margin: 10px;
+            "
+          >
+            Coordonnées
+          </h3>
+          <p>
+            Envoyez-nous un message et nous vous répondrons dans les plus brefs
+            délais !
+          </p>
+          <div
+            style="
+              align-items: flex-start;
+              display: flex;
+              flex-direction: column;
+              justify-content: left;
+              margin: 30px 0px;
+            "
+          >
+            <p>
+              <i class="bi bi-telephone-x" style="color: #38b44a"></i>
+              0782218188
+            </p>
+            <p>
+              <i class="bi bi-envelope" style="color: #38b44a"></i>
+              adictatorfrance@gmail.com
+            </p>
+            <p>
+              <i class="bi bi-geo-alt-fill" style="color: #38b44a"></i> Centre
+              Ambroise Paré 68 rue Aristide Briand 78130 Les Mureaux
+            </p>
+          </div>
+          <p
+            class="social"
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <router-link to="#" class="social-item"
+              ><span class="bi bi-twitter"></span
+            ></router-link>
+            <router-link to="#" class="social-item"
+              ><span class="bi bi-facebook"></span
+            ></router-link>
+            <router-link to="#" class="social-item"
+              ><span class="bi bi-instagram"></span
+            ></router-link>
+            <router-link to="#" class="social-item"
+              ><span class="bi bi-linkedin"></span
+            ></router-link>
+          </p>
         </div>
         <div
           class="col-md-8"
@@ -47,7 +90,7 @@
           data-aos-delay=""
           style="margin-bottom: 10px"
         >
-          <form @submit.prevent="submitForm">
+          <!--form @submit.prevent="submitForm">
             <div class="in">
               <div style="display: flex; flex-direction: column">
                 <label>Prénom</label>
@@ -102,9 +145,7 @@
                 </b-form-radio-group>
               </b-form-group>
 
-              <!--div class="mt-3">
-                Selected: <strong>{{ selected }}</strong>
-              </div-->
+              
             </div>
             <div
               style="
@@ -142,7 +183,8 @@
                 Prendre rendez-vous
               </button>
             </div>
-          </form>
+          </form-->
+          <iframe src="https://amzil-jamal.bookafy.com/schedule?type=iframe&locale=fr" height="800" style="width: 100% !important;" frameBorder="0"> </iframe>
         </div>
       </div>
     </div>
@@ -152,12 +194,11 @@
 <script>
 const WEB3FORMS_ACCESS_KEY = "6daffa6e-f826-44ca-9d8d-5e89ee282369";
 import "vue2-datepicker/locale/fr";
-import DatePicker from "vue2-datepicker";
-import CheckoutPayment from "@/components/CheckoutPayment.vue"
+
 import "vue2-datepicker/index.css";
 
 export default {
-  components: { DatePicker, CheckoutPayment },
+  components: {  },
   data() {
     return {
       firstname: "",

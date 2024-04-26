@@ -87,4 +87,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.panel-heading.accordion-toggle{
+  background-color: #38B44A;
+}
+</style>

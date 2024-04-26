@@ -41,7 +41,7 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
                 <p><i class="bi bi-check-circle-fill"></i> Conseils personnalisés</p>
                 <p><i class="bi bi-check-circle-fill"></i> Accompagnement professionnel, confidentiel</p>
             </div>
-            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Book Appointment</button>
+            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg"><a href='/book-appointment'>Book Appointment</a></button>
           </div>
         </div>
         <!--div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
@@ -70,7 +70,7 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
                 <p><i class="bi bi-check-circle-fill"></i> Traitement laser</p>
                 <p><i class="bi bi-check-circle-fill"></i> Nouvelle vie</p>
             </div>
-            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Book Appointment</button>
+            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg"><a href='/book-appointment'>Book Appointment</a></button>
           </div>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
@@ -84,7 +84,7 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
                 <!--p><i class="bi bi-check-circle-fill"></i></p>
                 <p><i class="bi bi-check-circle-fill"></i></p-->
             </div>
-            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Book Appointment</button>
+            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg"><a href='/book-appointment'>Book Appointment</a></button>
           </div>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
@@ -99,7 +99,7 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
                 <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> Idéal pour les personnes à mobilité réduite, on pense à vous</p>
                 <p style="text-align: left;"><i class="bi bi-check-circle-fill"></i> CE, comité d’entreprise.</p>
             </div>
-            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Citation requise</button>
+            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg"><a href='/contact-us'>Citation requise</a></button>
           </div>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="" style="margin-bottom:10px">
@@ -109,7 +109,7 @@ On ne va pas s’étaler sur le sujet des économies que vous ferez si vous arr�
                 Vous n'arrivez pas à trouver ce que vous cherchez?.
             </p>
             
-            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg">Envoyer une demande</button>
+            <button style="background-color: #38B44A; padding:20px; border:none" class="rounded-lg"><a href='/contact-us'>Envoyer une demande</a></button>
           </div>
         </div>
       </div>

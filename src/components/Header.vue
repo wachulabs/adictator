@@ -74,8 +74,9 @@
               to="/book-appointment"
               >Prendre rendez-vous</router-link
             >
-          </li>
-          <li v-if="loggedIn" class="dropdown" @click="handleDropdown(2)">
+            <!--a href="#" class="custom_button btn-simple active templates_color" style="background-color: rgb(56, 180, 74); text-align: center; display: flex; align-items: center; justify-content: center; cursor: pointer; width: auto; height: 40px; padding: 8px 20px; color: rgb(255, 255, 255); font-size: 15px; font-weight: 400; border-radius: 6px; text-decoration: none; max-width: 200px; visibility: visible; border-color: rgb(231, 231, 231);" alt="Book now button" target="_blank" id="app-scheduling" data-domain-name="https://amzil-jamal.bookafy.com/schedule/?type=iframe&custom_embed=true&locale=fr">Réserver maintenant</a-->
+            </li>
+        <li v-if="loggedIn" class="dropdown" @click="handleDropdown(2)">
             <router-link to="#"
               ><span>@{{ username }}</span> <i class="bi bi-chevron-down"></i
             ></router-link>
