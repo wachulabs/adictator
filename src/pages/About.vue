@@ -99,6 +99,65 @@
               data-aos="fade-up"
               style="width: 100%; text-align: left"
             >
+              <h2 class="section-heading ml-5">Notre histoire :</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!--div class="desc"-->
+            <div
+              class="col-md-11 ml-5"
+              data-aos="fade-up"
+              data-aos-delay=""
+              style="color: black; font-size: 20px"
+            >
+            Parlons un peu de moi, et de la story adictator. 
+ Je me présente Monsieur Amzil jamal, j’ai 40 ans je suis le fondateur du groupe anti addiction: Adictator. 
+J’ai toujours travaillé à mon compte et ce, dans tous types de domaine: commerce import-export, transport restauration VRP... J’ai aussi ouvert, plusieurs petits commerces de proximité, mais je n'avais encore jamais travaillé dans le domaine de la médecine douce.
+Comment je suis arrivé à devenir auriculothérapeute ???
+J’ai grandi et passé la majeure  partie de ma vie dans la ville des Mureaux, (78 banlieue oueste de paris) ,  une ville formidable, mais malheureusement touché par beaucoup d’addictions, je parle notamment et surtout du cannabis qu’on peut trouver à tous les coins de rue très facilement. 
+Moi-même fumeur de tabac, à raison d’un paquet par jour, ayant entendu parler de cette méthode révolutionnaire au laser pour arrêter de fumer en une seule séance je l’ai tout suite essayé et ça a fonctionné. Je  ressentais moins les envies ou du moins les envies était très facile à surmonter. J’ai été tout de suite convaincu vu que ça a marché sur moi ,et quand je vois le potentiel fumeur autour de nous un français sur 3 soit 13 millions de fumeurs sans parler des autres addictions, alcool, sucre etc…
+Je commence à me dire là Jamal il y a vraiment du business à faire. Je me suis donc intéressé à l’auriculothérapie. J’ai beaucoup bouquiné, Je me suis renseigné sur la chronologie des grands professeurs, qui ont travaillé cette méthode, qui est issue à la base de la médecine chinoise. L’auriculothérapie, plus de 2000ans,  elle a été amélioré par des grands noms comme le professeur Nogier nadia Wolf est aujourd’hui pr Conrad . 
+De plus la technologie d’aujourd’hui permet avec ce super laser d’avoir des résultats efficace, sans utiliser d’aiguille d’acupuncture.
+L’auriculothérapie : un grand arbre avec énormément de branche. 
+Je décide donc de m’inscrire à une formation, pour étudier une branche de cet arbre, une formation qui 08 se trouve dans le sud de la France, moi qui suis de Paris je prends l’aventure à l’aveuglette sans savoir vraiment se que j’allais apprendre. 
+Arrivé à cette formation, (je raconte cela pour la Story ADICTATOR )
+je me vois entouré de personnes qui ne sont pas vraiment de mon profil. 
+Il faut le dire, je ne fais pas la victime, mais je ne une réalitée, Jamel  jeune Franco marocain se retrouvent dans une formation comme sa sa fesait assez special du jamais vu même ,et ça n'a pas tardé à se faire ressentir. Une formation où j’ai été mis à l’écart où jai clairement été victime de discrimination raciale, mais je n'en fais pas une fatalité encore une fois ÇA ME DONNE DE LA FORCE. Je tiens juste à souligner ce moment de the Story car justement c’est ce qui  m’a donné le savoir que j’ai aujourd’hui. En effet lors de la formation je vois ce formateur qui ne veut même pas faire d’effort . Il ne répond pas à mes questions il me largue des tas d’informations techniques, le tout sans aucune pédagogie. Heureusement le karma était bon pour moi. J’ai à côté de moi PR Laurent Conrad qui me voit complètement largué et qui commence à m’assister, à me remettre à jour en m’expliquant certaines choses qu’aurait dû faire ce dit formateur. 
+on sent très bien que celui-ci est tendu avec moi, et pour couronner le tout après cette formation je vais boire un verre avec prof Conrad et en échangeant comme ça on se rend compte que j’avais payé la formation pratiquement le double de ce qu’il avait payé lui.
+Mais pourquoi Jamel  paye tant et Emilie Laurent …paye tant. Je vous assure pratiquement le double pour avoir effectué la même cession de formation donc j’avais bien vu .
+Ce formateur ne voulait pas me former mais  juste prendre mon argent abusivement. Mais cela dit, j’ai fait cette très belle rencontre, le professeur Conrad qui était lui déjà bien formé sur le sujet qui venait juste pour compléter un module de sa formation et qui a assisté à cette injustice envers ma personne et il me lance un t’inquiète pas je connais pratiquement tout et je vais tout te montrer …super jackpot il m’a super bien formé sur les addictions avec beaucoup d’intention et de l’envie de transmettre un savoir 
+J’ai encore beaucoup à apprendre de lui car 
+ il a plusieurs flèches à son arc. Il a étudié plusieurs méthodes,  le professeur Conrad humble discret mais qui cache une montagne de sciences en auriculothérapie réflexologie chiapi …il a réponse à tout …c’est Mickael Jackson de l’auriculothérapie laser…
+E il m’a bien transmis son savoir pour traiter les addictions qui sont mes priorités je compte par la suite en apprendre plus sur les douleurs ect…
+
+ Du coup après cette rencontre très intéressante on rentre chacun chez soi  lui a Mulhouse et moi dans ma banlieue aux Mureaux. 
+
+On garde contact, on s’échange des idées de nos expériences .Lui plutôt technique, moi commercial, 
+Il ouvre son cabinet conrad  et moi le mien adictator 
+On garde contact, on continue à échanger et on se rend compte qu’on est très complémentaire une alchimie se créer malgré nos expériences totalement différentes et on décide de créer la méthode  
+                      ***Conradictator ****
+
+
+Ps: le lendemain, je rappelle le méchant formateur pour qu’il me rembourse tout de suite la différence, il sait tout de suite exécuté il m’a remboursé et il ne manque pas de me dire qu’il ne veut plus entendre parler de personne comme moi .je lui ai dit que c’était raciste il m’a répondu non car il aime bien le couscous…et qu’il a un ami qui a du sang algérien 🤦🏽‍♂
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container rounded-lg">
+        <div
+          class="rounded-lg"
+          style="
+            margin: 10px;
+            box-shadow: -5px -5px 5px 5px #888888;
+            padding: 20px;
+          "
+        >
+          <div class="row justify-content-center text-center">
+            <div
+              class=""
+              data-aos="fade-up"
+              style="width: 100%; text-align: left"
+            >
               <h2 class="section-heading ml-5">Mission :</h2>
             </div>
           </div>
