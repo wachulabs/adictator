@@ -177,7 +177,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .carousel-home-resources.left-1 {
   transform: translateX(-500px) translateZ(-400px) rotateY(-30deg) !important;
 }

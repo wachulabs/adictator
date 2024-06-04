@@ -222,6 +222,26 @@ export default {
 };
 </script>
 <style scoped>
+
+.carousel-home-resources.left-1 {
+  transform: translateX(-500px) translateZ(-400px) rotateY(-30deg) !important;
+}
+.carousel-home-resources.right-1 {
+  transform: translateX(500px) translateZ(-400px) rotateY(30deg) !important;
+}
+.carousel-3d-container {
+  height: 350px !important;
+}
+.carousel-3d-slider {
+  height: 100% !important;
+}
+
+.carousel-3d-slide {
+  background: white;
+  height: 100% !important;
+  border-radius: 10px;
+}
+
 .slide-fade-enter-active {
   transition: all 0.3s ease-out;
 }
@@ -238,6 +258,7 @@ export default {
   font-size: 20px;
   color:black;
   display: flex;
+  height: 100%;
 }
 .slide-fade-enter-from,
 .slide-fade-leave-to {
