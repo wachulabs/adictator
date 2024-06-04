@@ -39,7 +39,7 @@
             >
               <h1 data-aos="fade-right" style="color: #0f172a">
                 <span style="color: #f21e1e">Accueil pour tous vos</span>
-                besoins en <span style="color: #38b44a">auriculothérapie</span>
+                <span style="color: #38b44a"> besoins en auriculothérapie</span>
               </h1>
               <div style="background-color: inherit;">
               
@@ -57,9 +57,9 @@
                   :autoplay="true"
                   :autoplayTimeout="10000"
                 >
-                  <slide :index="1">
-                    <div class="swiper-slide" style="height:100%">
-                      <div class="review text-center">
+                  <slide :index="1" style="height:100%">
+                    <div class="swiper-slide" style="height:100%; display: flex; align-items: center: justify-content; center">
+                      <div class="review text-center" style="display: flex; align-items: center; justify-content: center;">
                         Nous utilisons du matériel unique, protégé et conforme
                         aux normes CE en vigueur. Notre traitement vise à
                         stimuler les points de l'oreille à l'aide d'un laser de
@@ -229,12 +229,15 @@ export default {
 .slide-fade-leave-active {
   transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
 }
-
+.swiper-slide{
+  height:100%
+}
 .review{
   align-items: center;
   justify-content:center;
-  font-size: 40px;
-  color:black
+  font-size: 20px;
+  color:black;
+  display: flex;
 }
 .slide-fade-enter-from,
 .slide-fade-leave-to {
