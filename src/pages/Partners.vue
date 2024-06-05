@@ -14,7 +14,7 @@
               </h2>
             </div>
           </div>
-          <div class="row" style="padding: 20px; font-size: 20px; color: black">
+          <div class="row" style="padding: 20px; font-size: 20px; color: black; line-height:2">
 
             Un business rentable et simple a démarrer avec Adictator
 
@@ -26,19 +26,19 @@
             mais aussi
             -des milliers de conseillers commerciaux en Addictologie travaillant à leur compte en développant, leur
             propre business
-
+            <br />
             Pour les passionnés de thérapie,
             Pour ceux qui aiment rendre service
             Pour ceux qui veulent faire la guerre aux addictions
             Pour ceux qui cherchent un business rentable qui a beaucoup d’avenir
-
+            <br />
             Vous gagnez votre vie, en changeant celle des autres
-
+            <br />
             Rejoignez-nous
             En partenariat, si vous avez déjà un cabinet
             En franchise, si vous comptez ouvrir un cabinet
             En free-lance si vous voulez travailler en autonomie indépendante
-
+            <br />
             Vous bénéficierez de pack de démarrage complet formation suivie conseil, support publicitaire, site
             Internet, matériel de haute qualité et assurance.
             Ce qui se fait de mieux en France
@@ -56,9 +56,9 @@
             Les prix des franchises augmenteront aussi à l’avenir donc profitez de signer au plus vite.
             La course vient juste de commencer. Entrez dans la meilleure team anti addiction
             Adictator
-
+            <br />
             A vos business partez
-
+            <br />
             envoyiez nous. vous demandez en précisant bien votre situation
             Si vous avez un cabinet ?
             Si vous souhaitez en ouvrir un ?
