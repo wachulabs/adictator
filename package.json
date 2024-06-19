@@ -20,7 +20,7 @@
     "core-js": "^3.8.3",
     "idle-vue": "^2.0.5",
     "leaflet": "^1.9.4",
-    "node-sass": "^8.0.0",
+    "node-sass": "^9.0.0",
     "sass": "^1.77.4",
     "sass-loader": "^13.2.2",
     "vee-validate": "^2.2.15",
